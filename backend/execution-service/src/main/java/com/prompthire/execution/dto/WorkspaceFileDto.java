@@ -1,0 +1,44 @@
+package com.prompthire.execution.dto;
+
+public class WorkspaceFileDto {
+
+    private String id;
+    private String name;
+    private String language;
+    private String content;
+
+    public WorkspaceFileDto() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+}
