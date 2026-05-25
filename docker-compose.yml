@@ -1,0 +1,8 @@
+services:
+  openvscode:
+    image: gitpod/openvscode-server:latest
+    container_name: prompthire-openvscode
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./workspaces/candidate-1:/home/workspace
